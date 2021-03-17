@@ -1,6 +1,6 @@
 # Color Generator
 
-Color generator based on the [following course](https://www.udemy.com/course/react-tutorial-and-projects-course)
+Color generator based on [this course](https://www.udemy.com/course/react-tutorial-and-projects-course)
 
 #### Get Started:
 
