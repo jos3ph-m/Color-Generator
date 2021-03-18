@@ -8,6 +8,10 @@ function App() {
   const [error, setError] = useState(false);
   const [list, setList] = useState([]);
 
+  const handleSubmit = (e) => {
+    e.preventDefault();
+  };
+
   return <h2>color generator project</h2>;
 }
 
