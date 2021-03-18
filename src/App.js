@@ -10,9 +10,17 @@ function App() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
+    console.log('hello');
   };
 
-  return <h2>color generator project</h2>;
+  return (
+    <>
+      <section className="container"></section>
+      <section className="colors">
+        <h4>List goes here</h4>
+      </section>
+    </>
+  );
 }
 
 export default App;
