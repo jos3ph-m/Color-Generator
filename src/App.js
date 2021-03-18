@@ -15,7 +15,12 @@ function App() {
 
   return (
     <>
-      <section className="container"></section>
+      <section className="container">
+        <h3>color generator</h3>
+        <form onSubmit={handleSubmit}>
+          <input type="text" value={color} />
+        </form>
+      </section>
       <section className="colors">
         <h4>List goes here</h4>
       </section>
