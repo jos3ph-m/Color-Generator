@@ -14,6 +14,7 @@ const SingleColor = ({ rgb, weight, index, hexColor }) => {
     >
       <p className="percent-value">{weight}%</p>
       <p className="color-value">{hexValue}</p>
+      {alert && <p className="alert">coped it clipboard</p>}
     </article>
   );
 };
