@@ -6,7 +6,7 @@ import Values from 'values.js';
 function App() {
   const [color, setColor] = useState('');
   const [error, setError] = useState(false);
-  const [list, setList] = useState(new Values());
+  const [list, setList] = useState(new Values('#b0d4a3'));
 
   const handleSubmit = (e) => {
     e.preventDefault();
