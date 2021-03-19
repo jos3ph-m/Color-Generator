@@ -6,6 +6,12 @@ const SingleColor = ({ rgb, weight, index, hexColor }) => {
   const bcg = rgb.join(',');
   // const hex = rgbToHex(...rgb);
   const hexValue = `#${hexColor}`;
+  useEffect(() => {
+    const timeout = setTimeout(() => {
+      setAlert(false);
+    }, 2000);
+    return () => clearTimeout(timeout);
+  }, [alert]);
 
   return (
     <article
